@@ -44,7 +44,7 @@ describe('accountService', () => {
       gettextMock = sinon.stub().returnsArg(0)
       networkServiceMock = { listenNetworkHeight: sinon.stub(),
         getPeer: sinon.stub().returns('127.0.0.1'),
-        getNetwork: sinon.stub().returns({ version: 0x17 }) }
+        getNetwork: sinon.stub().returns({ version: 0x37 }) }
 
       // inject the mock services
       $provide.value('gettextCatalog', gettextCatalogMock)

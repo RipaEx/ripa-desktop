@@ -22,7 +22,7 @@
     if (!network) {
       network = switchNetwork()
     }
-    ark.crypto.setNetworkVersion(network.version || 23)
+    ark.crypto.setNetworkVersion(network.version || 0x37)
 
     const momentTimezone = require('moment-timezone')
     const momentRange = require('moment-range')
@@ -113,7 +113,7 @@
         n = {
           "ripa": createNetworkFromRipaJs(firstRipaJsNetworkKey, 0x37, 111, 'url(assets/images/images/Ark.jpg)'),
           "mainnet ark": createNetworkFromRipaJs(secondRipaJsNetworkKey, 0x17, 111, '#222299'),
-          "devnet ark": createNetworkFromRipaJs(thirdRipaJsNetworkKey, 0x52, 1, '#222299'),
+          "devnet ark": createNetworkFromRipaJs(thirdRipaJsNetworkKey, 0x1E, 1, '#222299'),
           "mainnet kapu": createNetworkFromRipaJs(fourthRipaJsNetworkKey, 0x2D, 111, '#222299'),
           "devnet kapu": createNetworkFromRipaJs(fifthRipaJsNetworkKey, 0x50, 1, '#222299')
         }

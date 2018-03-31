@@ -63,7 +63,7 @@ describe('transactionBuilderService', () => {
       networkServiceMock = {
         listenNetworkHeight: sinon.stub(),
         getPeer: sinon.stub().returns('127.0.0.1'),
-        getNetwork: sinon.stub().returns({ version: 0x17, token: tokenName })
+        getNetwork: sinon.stub().returns({ version: 0x37, token: tokenName })
       }
       ledgerServiceMock = {signTransaction: sinon.stub().resolves({})}
 

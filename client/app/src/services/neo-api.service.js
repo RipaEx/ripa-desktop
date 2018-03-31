@@ -30,7 +30,7 @@
     function isValidAddress (address) {
       // since NEO addresses are the same as ARK addresses, we can use the ark validateAddress method ;)
       // however we have to "hardcode the version", since it's not "network dependant" (e.g. devNet has another version)
-      return ark.crypto.validateAddress(address, 0x17)
+      return ark.crypto.validateAddress(address, 0x37)
     }
 
     return {

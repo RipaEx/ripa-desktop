@@ -47,7 +47,7 @@ if (shouldQuit) {
 
 function createWindow () {
   // Create the browser window.t
-  const iconpath = _path.resolve(__dirname, '/client/ark.png')
+  const iconpath = _path.resolve(__dirname, '/client/logo.png')
   let {width, height} = electron.screen.getPrimaryDisplay().workAreaSize
 
   let mainWindowState = windowStateKeeper({
@@ -147,11 +147,11 @@ function createWindow () {
         {
           role: 'about',
           click: () => openAboutWindow({
-            icon_path: `${__dirname}/client/ark.png`,
+            icon_path: `${__dirname}/client/logo.png`,
             package_json_dir: __dirname,
-            copyright: 'Copyright (c) 2017 ARK',
-            homepage: 'https://ark.io/',
-            bug_report_url: 'https://github.com/ArkEcosystem/ark-desktop/issues'
+            copyright: 'Copyright (c) 2018 RIPA',
+            homepage: 'https://ripaex.io/',
+            bug_report_url: 'https://github.com/RipaEx/ripa-desktop/issues'
           })
         },
         { type: 'separator' },
@@ -182,7 +182,7 @@ function createWindow () {
       submenu: [
         {
           label: 'Learn More',
-          click () { require('electron').shell.openExternal('https://ark.io') }
+          click () { require('electron').shell.openExternal('https://ripaex.io') }
         },
         { label: 'Reload App', accelerator: 'CmdOrCtrl+R', click: function () { mainWindow.reload() } },
         { label: 'Open Dev Tools', accelerator: 'CmdOrCtrl+D', click: function () { mainWindow.webContents.openDevTools() } }
