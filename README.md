@@ -61,7 +61,7 @@ brew cask install arkclient
 
 ## Screenshots
 ![dashboard](./dashboard.png)
-![account](https://i.imgur.com/DD8fx1O.jpg)
+![account](./account.png)
 
 ## Build
 
