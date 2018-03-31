@@ -60,7 +60,7 @@ brew cask install arkclient
 
 
 ## Screenshots
-![dashboard](https://i.imgur.com/AVdyM16.jpg)
+![dashboard](./dashboard.png)
 ![account](https://i.imgur.com/DD8fx1O.jpg)
 
 ## Build
@@ -77,7 +77,7 @@ Install from source:
 git clone https://github.com/ArkEcosystem/ark-desktop
 # Go into the repository
 cd ark-desktop
-# Install dependencies 
+# Install dependencies
 npm install
 ```
 
