@@ -10,9 +10,12 @@
    */
   function NetworkService ($q, $http, $timeout, storageService, timeService, toastService) {
     const _path = require('path')
-    const ark = require(_path.resolve(__dirname, '../node_modules/arkjs'))
-    const mainNetArkJsNetworkKey = 'ark'
-    const devNetArkJsNetworkKey = 'testnet'
+    const ark = require(_path.resolve(__dirname, '../node_modules/ripajs'))
+    const firstRipaJsNetworkKey = 'ripa'
+    const secondRipaJsNetworkKey = 'ark'
+    const thirdRipaJsNetworkKey = 'testnetARK'
+    const fourthRipaJsNetworkKey = 'kapu'
+    const fifthRipaJsNetworkKey = 'testnetKAPU'
 
     let network = switchNetwork(storageService.getContext())
 
@@ -108,8 +111,11 @@
       n = storageService.getGlobal('networks')
       if (!n) {
         n = {
-          mainnet: createNetworkFromArkJs(mainNetArkJsNetworkKey, 0x17, 111, 'url(assets/images/images/Ark.jpg)'),
-          devnet: createNetworkFromArkJs(devNetArkJsNetworkKey, 30, 1, '#222299')
+          "ripa": createNetworkFromRipaJs(firstRipaJsNetworkKey, 0x37, 111, 'url(assets/images/images/Ark.jpg)'),
+          "mainnet ark": createNetworkFromRipaJs(secondRipaJsNetworkKey, 0x17, 111, '#222299'),
+          "devnet ark": createNetworkFromRipaJs(thirdRipaJsNetworkKey, 0x52, 1, '#222299'),
+          "mainnet kapu": createNetworkFromRipaJs(fourthRipaJsNetworkKey, 0x2D, 111, '#222299'),
+          "devnet kapu": createNetworkFromRipaJs(fifthRipaJsNetworkKey, 0x50, 1, '#222299')
         }
         storageService.setGlobal('networks', n)
       }
@@ -119,16 +125,16 @@
       return n[newnetwork]
     }
 
-    function createNetworkFromArkJs (arkJsNetworkKey, version, slip44, background) {
-      const arkJsNetwork = ark.networks[arkJsNetworkKey]
+    function createNetworkFromRipaJs (ripaJsNetworkKey, version, slip44, background) {
+      const ripaJsNetwork = ark.networks[ripaJsNetworkKey]
 
       return {
-        arkJsKey: arkJsNetworkKey,
-        nethash: arkJsNetwork.nethash,
-        peerseed: 'http://' + arkJsNetwork.activePeer.ip + ':' + arkJsNetwork.activePeer.port,
-        token: arkJsNetwork.token,
-        symbol: arkJsNetwork.symbol,
-        explorer: arkJsNetwork.explorer,
+        ripaJsKey: ripaJsNetworkKey,
+        nethash: ripaJsNetwork.nethash,
+        peerseed: 'http://' + ripaJsNetwork.activePeer.ip + ':' + ripaJsNetwork.activePeer.port,
+        token: ripaJsNetwork.token,
+        symbol: ripaJsNetwork.symbol,
+        explorer: ripaJsNetwork.explorer,
         version: version,
         slip44: slip44,
         forcepeer: false,
@@ -138,17 +144,17 @@
       }
     }
 
-    function tryGetPeersFromArkJs () {
-      if (!network.arkJsKey) {
+    function tryGetPeersFromRipaJs () {
+      if (!network.ripaJsKey) {
         return
       }
 
-      const arkjsNetwork = ark.networks[network.arkJsKey]
-      if (!arkjsNetwork) {
+      const ripajsNetwork = ark.networks[network.ripaJsKey]
+      if (!ripajsNetwork) {
         return
       }
 
-      return arkjsNetwork.peers
+      return ripajsNetwork.peers
     }
 
     function getNetwork () {
@@ -336,14 +342,14 @@
         // we don't have any peers, that means the app is probably started for the first time
         // (and therefore we do not have a peer list in our storage)
         // and getting a peer list failed (the peerseed server may be down)
-        // in this case we try to get a peer from the hardcoded list in the arkjs config
-        peers = tryGetPeersFromArkJs()
+        // in this case we try to get a peer from the hardcoded list in the ripajs config
+        peers = tryGetPeersFromRipaJs()
         isStaticPeerList = true
       } else if (index === 0) {
         peers = peers.sort((a, b) => b.height - a.height || a.delay - b.delay).filter(p => p.ip !== '127.0.0.1')
       }
 
-      // check again or we may have an exception in the case when we couldn't get the static peer list from arkjs
+      // check again or we may have an exception in the case when we couldn't get the static peer list from ripajs
       if (!isPeerListValid()) {
         return
       }
