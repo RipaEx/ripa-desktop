@@ -115,7 +115,7 @@
           'mainnet ark': createNetworkFromRipaJs(secondRipaJsNetworkKey, 0x17, 111, 'url(assets/images/images/Ark.jpg)'),
           'devnet ark': createNetworkFromRipaJs(thirdRipaJsNetworkKey, 0x1E, 1, '#222299'),
           'mainnet kapu': createNetworkFromRipaJs(fourthRipaJsNetworkKey, 0x2D, 111, 'url(assets/images/images/Kapu.jpg)'),
-          'devnet kapu': createNetworkFromRipaJs(fifthRipaJsNetworkKey, 0x50, 1, '#222299')
+          'devnet kapu': createNetworkFromRipaJs(fifthRipaJsNetworkKey, 0x50, 1, '#040404')
         }
         storageService.setGlobal('networks', n)
       }
