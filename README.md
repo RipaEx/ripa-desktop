@@ -1,39 +1,12 @@
-![ARK-DESKTOP](https://i.imgur.com/eZPrrCQ.png)
+![RIPA-DESKTOP](https://i.imgur.com/eZPrrCQ.png)
 
-[![Build Status](https://travis-ci.org/ArkEcosystem/ark-desktop.svg?branch=master)](https://travis-ci.org/ArkEcosystem/ark-desktop)
-[![Github Latest Release](https://img.shields.io/github/release/ArkEcosystem/ark-desktop.svg)](https://github.com/ArkEcosystem/ark-desktop/releases/latest)
-[![Github Downloads](https://img.shields.io/github/downloads/ArkEcosystem/ark-desktop/latest/total.svg?logo=github)](https://github.com/ArkEcosystem/ark-desktop/releases/latest)
+[![Build Status](https://travis-ci.org/RipaEx/ripa-desktop.svg?branch=master)](https://travis-ci.org/RipaEx/ripa-desktop)
+[![Github Latest Release](https://img.shields.io/github/release/RipaEx/ripa-desktop.svg)](https://github.com/RipaEx/ripa-desktop/releases/latest)
+[![Github Downloads](https://img.shields.io/github/downloads/RipaEx/ripa-desktop/latest/total.svg?logo=github)](https://github.com/RipaEx/ripa-desktop/releases/latest)
 [![Gitter Room](https://img.shields.io/gitter/room/ark-developers/Lobby.svg?logo=gitter-white&colorB=e53467)](https://gitter.im/ark-developers/Lobby)
 
-# Pinned: Critical bugs only!
-Since we are working on the next-gen version of the wallet, we won't be reviewing pull requests with new features and bugs (only critical bugs will be reviewed and merged). Our intention is deploying the first beta of the v2 desktop wallet in a few weeks time so we need to be focused on it exclusively.
-
-Please do not submit Pull-Requests (PRs) unless they solve an urgent problem.
-
-## Pinned: Help us with translations
-Collaborate with other translators on our OneSky project and help us get wallet translated in other languages  http://osjc1wl.oneskyapp.com/collaboration/project?id=95031
-
-Please do not submit Pull-Requests (PRs) for translations, but use the link above!
-
 ## Download
-[Latest Release](https://github.com/ArkEcosystem/ark-desktop/releases)
-
-## Installing via Package Managers
-
-#### AUR
-For distros derived from Arch Linux the package is available in AUR, just run:
-
-```
-yaourt -Sy ark-desktop
-```
-
-#### Homebrew
-For Mac users the package is available in [Homebrew](https://brew.sh/):
-
-```
-brew update
-brew cask install arkclient
-```
+[Latest Release](https://github.com/RipaEx/ripa-desktop/releases)
 
 ## Features
 * Available on ***Windows***, ***Linux*** (Ubuntu/Debian) and ***MacOSX*** (signed).
@@ -74,9 +47,9 @@ sudo n 6.9.2
 Install from source:
 ```bash
 # Clone this repository
-git clone https://github.com/ArkEcosystem/ark-desktop
+git clone https://github.com/RipaEx/ripa-desktop
 # Go into the repository
-cd ark-desktop
+cd ripa-desktop
 # Install dependencies
 npm install
 ```
@@ -103,6 +76,7 @@ brew bundle
 * [Contribute bounties](./CONTRIBUTING.md).
 
 ## Authors
+- Giovanni Silvestri <gsit80@gmail.com>
 - FX Thoorens <fx@ark.io>
 - Guillaume Verbal <doweig@ark.io>
 - Lúcio Rubens <lucio@ark.io>
@@ -110,4 +84,4 @@ brew bundle
 
 ## License
 
-ARK Desktop is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+RIPA Desktop is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
