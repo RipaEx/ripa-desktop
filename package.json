@@ -32,11 +32,16 @@
     "Electron"
   ],
   "author": {
-    "name": "Fx Thoorens",
-    "email": "fixcrypt@gmail.com",
-    "url": "https://github.com/fix"
+    "name": "G. Silvestri",
+    "email": "gsit80@gmail.com",
+    "url": "https://github.com/gsilvestri"
   },
   "contributors": [
+	  {
+		"name": "Fx Thoorens",
+		"email": "fixcrypt@gmail.com",
+		"url": "https://github.com/fix"
+	  },
     {
       "name": "Guillaume Verbal",
       "email": "doweig@ark.io",
