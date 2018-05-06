@@ -32,11 +32,16 @@
     "Electron"
   ],
   "author": {
-    "name": "Fx Thoorens",
-    "email": "fixcrypt@gmail.com",
-    "url": "https://github.com/fix"
+    "name": "G. Silvestri",
+    "email": "gsit80@gmail.com",
+    "url": "https://github.com/gsilvestri"
   },
   "contributors": [
+	  {
+		"name": "Fx Thoorens",
+		"email": "fixcrypt@gmail.com",
+		"url": "https://github.com/fix"
+	  },
     {
       "name": "Guillaume Verbal",
       "email": "doweig@ark.io",
@@ -104,11 +109,11 @@
     "spectron": "^3.8.0"
   },
   "build": {
-    "appId": "com.arkwallet.liteclient",
+    "appId": "com.ripawallet.liteclient",
     "protocols": {
       "name": "Ripa URI scheme",
       "schemes": [
-        "ark"
+        "ripa"
       ],
       "role": "Viewer"
     },
@@ -126,7 +131,7 @@
         "tar.xz"
       ],
       "desktop": {
-        "MimeType": "x-scheme-handler/ark;"
+        "MimeType": "x-scheme-handler/ripa;"
       },
       "category": "Network"
     },
