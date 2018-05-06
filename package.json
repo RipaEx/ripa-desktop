@@ -1,6 +1,6 @@
 {
   "name": "RipaClient",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "productName": "RipaClient",
   "description": "Ripa Desktop Wallet",
   "main": "main.js",
