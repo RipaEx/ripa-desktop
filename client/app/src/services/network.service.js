@@ -380,7 +380,7 @@
 
     function getLatestClientVersion () {
       const deferred = $q.defer()
-      const url = 'https://api.github.com/repos/ArkEcosystem/ark-desktop/releases/latest'
+      const url = 'https://api.github.com/repos/RipaEx/ripa-desktop/releases/latest'
       $http.get(url, { timeout: 5000 })
         .then((res) => {
           deferred.resolve(res.data.tag_name)
