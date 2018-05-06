@@ -109,11 +109,11 @@
     "spectron": "^3.8.0"
   },
   "build": {
-    "appId": "com.arkwallet.liteclient",
+    "appId": "com.ripawallet.liteclient",
     "protocols": {
       "name": "Ripa URI scheme",
       "schemes": [
-        "ark"
+        "ripa"
       ],
       "role": "Viewer"
     },
@@ -131,7 +131,7 @@
         "tar.xz"
       ],
       "desktop": {
-        "MimeType": "x-scheme-handler/ark;"
+        "MimeType": "x-scheme-handler/ripa;"
       },
       "category": "Network"
     },
