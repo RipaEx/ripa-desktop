@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/RipaEx/ripa-desktop.svg?branch=master)](https://travis-ci.org/RipaEx/ripa-desktop)
 [![Github Latest Release](https://img.shields.io/github/release/RipaEx/ripa-desktop.svg)](https://github.com/RipaEx/ripa-desktop/releases/latest)
 [![Github Downloads](https://img.shields.io/github/downloads/RipaEx/ripa-desktop/latest/total.svg?logo=github)](https://github.com/RipaEx/ripa-desktop/releases/latest)
-[![Gitter Room](https://img.shields.io/gitter/room/ark-developers/Lobby.svg?logo=gitter-white&colorB=e53467)](https://gitter.im/ark-developers/Lobby)
+[![Gitter Room](https://img.shields.io/gitter/room/RipaEx/Lobby.svg?logo=gitter-white&colorB=e53467)](https://gitter.im/RipaEx/Lobby)
 
 ## Download
 [Latest Release](https://github.com/RipaEx/ripa-desktop/releases)
