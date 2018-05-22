@@ -1,4 +1,4 @@
-![RIPA-DESKTOP](https://i.imgur.com/eZPrrCQ.png)
+![RIPA-DESKTOP](./ripa_medium_desktop.jpg)
 
 [![Build Status](https://travis-ci.org/RipaEx/ripa-desktop.svg?branch=master)](https://travis-ci.org/RipaEx/ripa-desktop)
 [![Github Latest Release](https://img.shields.io/github/release/RipaEx/ripa-desktop.svg)](https://github.com/RipaEx/ripa-desktop/releases/latest)
