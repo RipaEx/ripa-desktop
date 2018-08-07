@@ -92,8 +92,8 @@ msgstr "모양"
 msgid "Application"
 msgstr "애플리케이션"
 
-msgid "Amount (Ѧ)"
-msgstr "개(Ѧ)"
+msgid "Amount (₱)"
+msgstr "개(₱)"
 
 msgid "Approval"
 msgstr "승인"
@@ -110,7 +110,7 @@ msgstr "아랍어"
 msgid "Are you sure?"
 msgstr "확실합니까?"
 
-msgid "Ark Client"
+msgid "Ripa Client"
 msgstr "아크 클라이언트"
 
 msgid "Background"
@@ -290,8 +290,8 @@ msgstr "트랜잭션 파일을 저장하는데 실패했습니다"
 msgid "File"
 msgstr "파일"
 
-msgid "Fee (Ѧ)"
-msgstr "수수료(Ѧ)"
+msgid "Fee (₱)"
+msgstr "수수료(₱)"
 
 msgid "Folder Name"
 msgstr "폴더 이름"
@@ -449,7 +449,7 @@ msgstr "공용키가 없습니다."
 msgid "No search term"
 msgstr "검색어가 없습니다."
 
-msgid "Not enough ARK on your account"
+msgid "Not enough RIPA on your account"
 msgstr "당신의 계정에 충분한 아크가 없습니다."
 
 msgid "OffChain"
@@ -488,7 +488,7 @@ msgstr "보안문구"
 msgid "Passphrase does not match your address"
 msgstr "보안문구가 당신의 주소와 일치하지 않습니다."
 
-msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different Ark address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
+msgid "Passphrase is <strong>case sensitive</strong>, each character change will result in importing a different Ripa address! Passphrases are <strong>not saved</strong> on this computer so always make sure you have them <strong>backed up safely!</strong>"
 msgstr "보안문구는 <strong>대소문자를 구분</strong>합니다, 문구중 한글자만 달라도 다른 아크주소를 불러올것입니다! 보안문구는 이 컴퓨터에 <strong>저장되지 않으며</strong> 별도로 <strong>안전하게 백업</strong>해야 합니다!"
 
 msgid "Passphrase is not corresponding to account"
@@ -578,13 +578,13 @@ msgstr "QR 스캐너"
 msgid "Quit"
 msgstr "끝내기"
 
-msgid "Quit Ark Client?"
+msgid "Quit Ripa Client?"
 msgstr "아크 클라이언트를 종료할까요?"
 
 msgid "Rank"
 msgstr "순위"
 
-msgid "Receive Ark"
+msgid "Receive Ripa"
 msgstr "아크 받기"
 
 msgid "Refresh Account"
@@ -662,13 +662,13 @@ msgstr "보내기"
 msgid "Send All"
 msgstr "모두에게 보내기"
 
-msgid "Send Ark"
+msgid "Send Ripa"
 msgstr "아크 보내기"
 
 msgid "Serbian"
 msgstr "세르비아어"
 
-msgid "Send Ark from"
+msgid "Send Ripa from"
 msgstr "~으로부터 아크 보내기"
 
 msgid "Set"
@@ -821,7 +821,7 @@ msgstr "투표"
 msgid "Votes"
 msgstr "투표"
 
-msgid "Voting is an optional, but important mechanism that keeps the Ark network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
 msgstr "투표를 꼭 하실 필요는 없지만 투표는 아크 네트워크의 안정화에 기여합니다. \n가장 많은 투표를 받은 51명의 대표자에게는 새로운 블록들을 검증하고 생성할 책임이 주어집니다. \n현재 페이지에서 여러분들이 지지하는 대표자에게 투표를 하실 수 있습니다."
 
 msgid "Word"
@@ -869,15 +869,15 @@ msgstr "생산성"
 msgid "sent with success!"
 msgstr "성공적으로 보내졌습니다."
 
-msgid "you need at least 1 ARK to vote"
+msgid "you need at least 1 RIPA to vote"
 msgstr "투표하기 위해 적어도 1아크가 필요합니다."
 
-msgid "you need at least 25 ARK to register delegate"
+msgid "you need at least 25 RIPA to register delegate"
 msgstr "대표자로 등록하기 위해 적어도 25아크가 필요합니다. "
 
-msgid "Voting is an optional, but important mechanism that keeps the Ark network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "투표는 필수사항이 아닙니다. 단, 투표는 아크 네트워크 안정화에 중요한 역할을 합니다.\n표를 가장 많이 획득한 51명이 대표로 선정되어 새로운 블럭에 대한 거래를 확인하고 구축해나가는 책임이 주어집니다.\n현재 페이지에서 여러분들이 지지하는 대표후보에게 투표하실 수 있습니다."
 
-msgid "you need at least 5 ARK to create a second passphrase"
-msgstr "2차 보안문구를 생성하기 위해서는 최소 5 ARK 가 필요합니다."
+msgid "you need at least 5 RIPA to create a second passphrase"
+msgstr "2차 보안문구를 생성하기 위해서는 최소 5 RIPA 가 필요합니다."
 

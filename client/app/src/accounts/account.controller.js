@@ -160,7 +160,7 @@
 
     self.closeApp = function () {
       const confirm = $mdDialog.confirm()
-        .title(gettextCatalog.getString('Quit Ark Client?'))
+        .title(gettextCatalog.getString('Quit Ripa Client?'))
         .theme(self.currentTheme)
         .ok(gettextCatalog.getString('Quit'))
         .cancel(gettextCatalog.getString('Cancel'))

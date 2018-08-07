@@ -38,8 +38,8 @@ msgstr "Alamat"
 msgid "Amount"
 msgstr "Jumlah"
 
-msgid "Amount (Ѧ)"
-msgstr "Jumlah (Ѧ)"
+msgid "Amount (₱)"
+msgstr "Jumlah (₱)"
 
 msgid "Approval"
 msgstr "Persetujuan"
@@ -47,8 +47,8 @@ msgstr "Persetujuan"
 msgid "Are you sure?"
 msgstr "Anda Yakin?"
 
-msgid "Ark Client"
-msgstr "Client ARK"
+msgid "Ripa Client"
+msgstr "Client RIPA"
 
 msgid "Balance"
 msgstr "Saldo"
@@ -137,8 +137,8 @@ msgstr "Kesalahan:"
 msgid "Exchange"
 msgstr "Bursa"
 
-msgid "Fee (Ѧ)"
-msgstr "Biaya (Ѧ)"
+msgid "Fee (₱)"
+msgstr "Biaya (₱)"
 
 msgid "Folder Name"
 msgstr "Nama Folder"
@@ -215,8 +215,8 @@ msgstr "Tidak ada publicKey"
 msgid "No search term"
 msgstr "Tidak ada kata pencarian"
 
-msgid "Not enough ARK on your account"
-msgstr "ARK di akun anda tidak cukup"
+msgid "Not enough RIPA on your account"
+msgstr "RIPA di akun anda tidak cukup"
 
 msgid "OffChain"
 msgstr "OffChain"
@@ -275,14 +275,14 @@ msgstr "Produktifitas"
 msgid "Quit"
 msgstr "Berhenti"
 
-msgid "Quit Ark Client?"
-msgstr "Keluar dari Client Ark?"
+msgid "Quit Ripa Client?"
+msgstr "Keluar dari Client Ripa?"
 
 msgid "Rank"
 msgstr "Peringkat"
 
-msgid "Receive Ark"
-msgstr "Terima Ark"
+msgid "Receive Ripa"
+msgstr "Terima Ripa"
 
 msgid "Register Delegate"
 msgstr "Daftar Delegasi"
@@ -311,11 +311,11 @@ msgstr "Kata sandi Kedua"
 msgid "Send"
 msgstr "Kirim"
 
-msgid "Send Ark"
-msgstr "Kirim ARK"
+msgid "Send Ripa"
+msgstr "Kirim RIPA"
 
-msgid "Send Ark from"
-msgstr "Kirim ARK dari"
+msgid "Send Ripa from"
+msgstr "Kirim RIPA dari"
 
 msgid "Set"
 msgstr "Set"
@@ -395,9 +395,9 @@ msgstr "blok yang dihasilkan"
 msgid "sent with success!"
 msgstr "Berhasil dikirim!"
 
-msgid "you need at least 1 ARK to vote"
-msgstr "Anda memerlukan setidaknya 1 ARK untuk melakukan vote"
+msgid "you need at least 1 RIPA to vote"
+msgstr "Anda memerlukan setidaknya 1 RIPA untuk melakukan vote"
 
-msgid "you need at least 25 ARK to register delegate"
-msgstr "Anda memerlukan setidaknya 25 ARK untuk mendaftar delegasi"
+msgid "you need at least 25 RIPA to register delegate"
+msgstr "Anda memerlukan setidaknya 25 RIPA untuk mendaftar delegasi"
 

@@ -77,8 +77,8 @@ msgstr "Aparência"
 msgid "Application"
 msgstr "Aplicação"
 
-msgid "Amount (Ѧ)"
-msgstr "Quantidade (Ѧ)"
+msgid "Amount (₱)"
+msgstr "Quantidade (₱)"
 
 msgid "Approval"
 msgstr "Aprovação"
@@ -95,8 +95,8 @@ msgstr "Árabe"
 msgid "Are you sure?"
 msgstr "Você tem certeza?"
 
-msgid "Ark Client"
-msgstr "Cliente Ark"
+msgid "Ripa Client"
+msgstr "Cliente Ripa"
 
 msgid "Background"
 msgstr "Plano de fundo"
@@ -278,8 +278,8 @@ msgstr "Taxa ({{ul.network.symbol}})"
 msgid "File"
 msgstr "Erro no processamento da assinatura"
 
-msgid "Fee (Ѧ)"
-msgstr "Taxa (Ѧ)"
+msgid "Fee (₱)"
+msgstr "Taxa (₱)"
 
 msgid "Folder Name"
 msgstr "Nome da pasta"
@@ -431,8 +431,8 @@ msgstr "Nenhuma chave pública"
 msgid "No search term"
 msgstr "Nenhum termo de pesquisa"
 
-msgid "Not enough ARK on your account"
-msgstr "Não há ARK suficiente em sua conta"
+msgid "Not enough RIPA on your account"
+msgstr "Não há RIPA suficiente em sua conta"
 
 msgid "OffChain"
 msgstr "OffChain"
@@ -548,14 +548,14 @@ msgstr "Scanner de código QR"
 msgid "Quit"
 msgstr "Sair"
 
-msgid "Quit Ark Client?"
-msgstr "Sair do Cliente Ark?"
+msgid "Quit Ripa Client?"
+msgstr "Sair do Cliente Ripa?"
 
 msgid "Rank"
 msgstr "Rank"
 
-msgid "Receive Ark"
-msgstr "Receber Ark"
+msgid "Receive Ripa"
+msgstr "Receber Ripa"
 
 msgid "Refresh Account"
 msgstr "Atualizar Conta"
@@ -620,14 +620,14 @@ msgstr "Enviar"
 msgid "Send All"
 msgstr "Enviar Tudo"
 
-msgid "Send Ark"
-msgstr "Enviar Ark"
+msgid "Send Ripa"
+msgstr "Enviar Ripa"
 
 msgid "Serbian"
 msgstr "Sérvio"
 
-msgid "Send Ark from"
-msgstr "Enviar Ark de"
+msgid "Send Ripa from"
+msgstr "Enviar Ripa de"
 
 msgid "Set"
 msgstr "Conjunto"
@@ -785,15 +785,15 @@ msgstr "produtividade"
 msgid "sent with success!"
 msgstr "enviado com sucesso!"
 
-msgid "you need at least 1 ARK to vote"
-msgstr "você precisa de pelo menos 1 ARK para votar"
+msgid "you need at least 1 RIPA to vote"
+msgstr "você precisa de pelo menos 1 RIPA para votar"
 
-msgid "you need at least 25 ARK to register delegate"
-msgstr "Você necessita de pelo menos 25 ARK para registrar o delegado "
+msgid "you need at least 25 RIPA to register delegate"
+msgstr "Você necessita de pelo menos 25 RIPA para registrar o delegado "
 
-msgid "Voting is an optional, but important mechanism that keeps the Ark network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "A votação é um mecanismo opcional, mas importante, que mantém a rede Ark segura.\nOs 51 delegados com mais votos da rede são responsáveis ​​por verificar e forjar transações em novos blocos.\nEsta página pode ser usada para votar para um delegado que você apoia."
+msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "A votação é um mecanismo opcional, mas importante, que mantém a rede Ripa segura.\nOs 51 delegados com mais votos da rede são responsáveis ​​por verificar e forjar transações em novos blocos.\nEsta página pode ser usada para votar para um delegado que você apoia."
 
-msgid "you need at least 5 ARK to create a second passphrase"
-msgstr "Você precisa de pelo menos 5 ARK para criar uma segunda frase secreta"
+msgid "you need at least 5 RIPA to create a second passphrase"
+msgstr "Você precisa de pelo menos 5 RIPA para criar uma segunda frase secreta"
 

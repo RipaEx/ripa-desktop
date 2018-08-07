@@ -92,8 +92,8 @@ msgstr "Podoba"
 msgid "Application"
 msgstr "Aplikacija"
 
-msgid "Amount (Ѧ)"
-msgstr "Znesek (Ѧ)"
+msgid "Amount (₱)"
+msgstr "Znesek (₱)"
 
 msgid "Approval"
 msgstr "Odobritev"
@@ -107,8 +107,8 @@ msgstr "Arabščina"
 msgid "Are you sure?"
 msgstr "Ali ste prepričani?"
 
-msgid "Ark Client"
-msgstr "ARK klient"
+msgid "Ripa Client"
+msgstr "RIPA klient"
 
 msgid "Background"
 msgstr "Ozadje"
@@ -260,8 +260,8 @@ msgstr "Raziskovalec"
 msgid "File"
 msgstr "Datoteka"
 
-msgid "Fee (Ѧ)"
-msgstr "Strošek (Ѧ)"
+msgid "Fee (₱)"
+msgstr "Strošek (₱)"
 
 msgid "Folder Name"
 msgstr "Ime mape"
@@ -401,8 +401,8 @@ msgstr "Majnkajoč javni ključ (publicKey)"
 msgid "No search term"
 msgstr "Ni iskalnega niza"
 
-msgid "Not enough ARK on your account"
-msgstr "V vašem računu ni dovolj ARK-ov."
+msgid "Not enough RIPA on your account"
+msgstr "V vašem računu ni dovolj RIPA-ov."
 
 msgid "OffChain"
 msgstr "Lokalna povezava"
@@ -515,14 +515,14 @@ msgstr "QR Skener"
 msgid "Quit"
 msgstr "Izhod"
 
-msgid "Quit Ark Client?"
-msgstr "Izhod iz ARK denarnice?"
+msgid "Quit Ripa Client?"
+msgstr "Izhod iz RIPA denarnice?"
 
 msgid "Rank"
 msgstr "Mesto"
 
-msgid "Receive Ark"
-msgstr "Prejmi ARK"
+msgid "Receive Ripa"
+msgstr "Prejmi RIPA"
 
 msgid "Register Delegate"
 msgstr "Registracija delegata"
@@ -584,10 +584,10 @@ msgstr "Pošlji"
 msgid "Send All"
 msgstr "Pošlji vse"
 
-msgid "Send Ark"
-msgstr "Pošlji ARK"
+msgid "Send Ripa"
+msgstr "Pošlji RIPA"
 
-msgid "Send Ark from"
+msgid "Send Ripa from"
 msgstr "Pošlji ark iz"
 
 msgid "Set"
@@ -669,7 +669,7 @@ msgid "Timestamp Document On"
 msgstr "Časovni žig dokumenta omogočen"
 
 msgid "This account has never interacted with the network. This is a cold wallet."
-msgstr "Ta račun še ni bil nikoli uporabljen na ARK omrežju. To je \"hladna denarnica.\""
+msgstr "Ta račun še ni bil nikoli uporabljen na RIPA omrežju. To je \"hladna denarnica.\""
 
 msgid "To"
 msgstr "Za"
@@ -719,8 +719,8 @@ msgstr "Glasuj"
 msgid "Votes"
 msgstr "Glasovi"
 
-msgid "Voting is an optional, but important mechanism that keeps the Ark network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Glasovanje je prostovoljen a pomemben vzvod, ki ohranja varnost Ark omrežja. 51 delegatov z največ zbranimi glasovi je odgovornih za preverjanje in kovanje transakcij v nove bloke verige. Na tej strani lahko podate svoj glas delegatu, ki ga podpirate."
+msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
+msgstr "Glasovanje je prostovoljen a pomemben vzvod, ki ohranja varnost Ripa omrežja. 51 delegatov z največ zbranimi glasovi je odgovornih za preverjanje in kovanje transakcij v nove bloke verige. Na tej strani lahko podate svoj glas delegatu, ki ga podpirate."
 
 msgid "Word"
 msgstr "Beseda"
@@ -767,15 +767,15 @@ msgstr "produktivnost"
 msgid "sent with success!"
 msgstr "uspešno poslano!"
 
-msgid "you need at least 1 ARK to vote"
-msgstr "Potrebujete vsaj 1 ARK za glasovanje"
+msgid "you need at least 1 RIPA to vote"
+msgstr "Potrebujete vsaj 1 RIPA za glasovanje"
 
-msgid "you need at least 25 ARK to register delegate"
-msgstr "potrebujete vsaj 25 ARK-ov za registracijo delegata"
+msgid "you need at least 25 RIPA to register delegate"
+msgstr "potrebujete vsaj 25 RIPA-ov za registracijo delegata"
 
-msgid "Voting is an optional, but important mechanism that keeps the Ark network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Glasovanje je prostovoljen a pomemben vzvod, ki ohranja varnost ARK omrežja.\n51 delegatov z največ zbranimi glasovi je odgovornih za preverjanje in kovanje transakcij v nove bloke verige.\nNa tej strani lahko podate svoj glas delegatu, ki ga podpirate."
+msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
+msgstr "Glasovanje je prostovoljen a pomemben vzvod, ki ohranja varnost RIPA omrežja.\n51 delegatov z največ zbranimi glasovi je odgovornih za preverjanje in kovanje transakcij v nove bloke verige.\nNa tej strani lahko podate svoj glas delegatu, ki ga podpirate."
 
-msgid "you need at least 5 ARK to create a second passphrase"
-msgstr "Potrebujete vsaj 5 ARK za ustvaritev drugega gesla."
+msgid "you need at least 5 RIPA to create a second passphrase"
+msgstr "Potrebujete vsaj 5 RIPA za ustvaritev drugega gesla."
 

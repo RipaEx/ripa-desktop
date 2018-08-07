@@ -41,7 +41,7 @@ msgstr "Διεύθυνση"
 msgid "Amount"
 msgstr "Ποσό"
 
-msgid "Amount (Ѧ)"
+msgid "Amount (₱)"
 msgstr "Ποσό"
 
 msgid "Approval"
@@ -50,8 +50,8 @@ msgstr "Έγκριση"
 msgid "Are you sure?"
 msgstr "Είστε σίγουρος;"
 
-msgid "Ark Client"
-msgstr "Ark Client"
+msgid "Ripa Client"
+msgstr "Ripa Client"
 
 msgid "Balance"
 msgstr "Υπόλοιπο"
@@ -167,7 +167,7 @@ msgstr "Ανταλλακτήριο"
 msgid "File"
 msgstr "Αρχείο"
 
-msgid "Fee (Ѧ)"
+msgid "Fee (₱)"
 msgstr "Τέλη"
 
 msgid "Folder Name"
@@ -266,8 +266,8 @@ msgstr "Δεν υπάρχει publicKey"
 msgid "No search term"
 msgstr "Δεν υπάρχει ο όρος αναζήτησης"
 
-msgid "Not enough ARK on your account"
-msgstr "Δεν υπάρχουν αρκετά ARK στον λογαριασμό"
+msgid "Not enough RIPA on your account"
+msgstr "Δεν υπάρχουν αρκετά RIPA στον λογαριασμό"
 
 msgid "OffChain"
 msgstr "Εκτός αλυσίδας"
@@ -341,14 +341,14 @@ msgstr "Παραγωγικότητα"
 msgid "Quit"
 msgstr "Τερματισμός"
 
-msgid "Quit Ark Client?"
-msgstr "Τερματισμός του Ark Client ;"
+msgid "Quit Ripa Client?"
+msgstr "Τερματισμός του Ripa Client ;"
 
 msgid "Rank"
 msgstr "Κατάταξη"
 
-msgid "Receive Ark"
-msgstr "Παραλαβή ARK"
+msgid "Receive Ripa"
+msgstr "Παραλαβή RIPA"
 
 msgid "Register Delegate"
 msgstr "Κατοχύρωση Delegate"
@@ -377,11 +377,11 @@ msgstr "Δεύτερη Passphrase"
 msgid "Send"
 msgstr "Αποστολή"
 
-msgid "Send Ark"
-msgstr "Αποστολή Ark"
+msgid "Send Ripa"
+msgstr "Αποστολή Ripa"
 
-msgid "Send Ark from"
-msgstr "Αποστολή Ark από"
+msgid "Send Ripa from"
+msgstr "Αποστολή Ripa από"
 
 msgid "Set"
 msgstr "Ρύθμιση"
@@ -464,12 +464,12 @@ msgstr "παραχθέντα block"
 msgid "sent with success!"
 msgstr "Στάλθηκε με επιτυχία"
 
-msgid "you need at least 1 ARK to vote"
-msgstr "Χρειάζεστε τουλάχιστον 1 ARK για να ψηφίσετε"
+msgid "you need at least 1 RIPA to vote"
+msgstr "Χρειάζεστε τουλάχιστον 1 RIPA για να ψηφίσετε"
 
-msgid "you need at least 25 ARK to register delegate"
-msgstr "Χρειάζεστε τουλάχιστον 25 ARK για να κατοχυρώσετε έναν delegate"
+msgid "you need at least 25 RIPA to register delegate"
+msgstr "Χρειάζεστε τουλάχιστον 25 RIPA για να κατοχυρώσετε έναν delegate"
 
-msgid "you need at least 5 ARK to create a second passphrase"
-msgstr "χρειάζεστε τουλάχιστον 5 ARK για να δημιουργήσετε μια δεύτερη φράση πρόσβασης"
+msgid "you need at least 5 RIPA to create a second passphrase"
+msgstr "χρειάζεστε τουλάχιστον 5 RIPA για να δημιουργήσετε μια δεύτερη φράση πρόσβασης"
 

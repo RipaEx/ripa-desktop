@@ -65,8 +65,8 @@ msgstr "Количество"
 msgid "Application"
 msgstr "Приложение"
 
-msgid "Amount (Ѧ)"
-msgstr "Количество (Ѧ)"
+msgid "Amount (₱)"
+msgstr "Количество (₱)"
 
 msgid "Arabic"
 msgstr "Арабский"
@@ -77,8 +77,8 @@ msgstr "Араб"
 msgid "Are you sure?"
 msgstr "Вы уверены?"
 
-msgid "Ark Client"
-msgstr "Клиент Ark"
+msgid "Ripa Client"
+msgstr "Клиент Ripa"
 
 msgid "Balance"
 msgstr "Баланс"
@@ -233,8 +233,8 @@ msgstr "Файл"
 msgid "Finish"
 msgstr "Конец"
 
-msgid "Fee (Ѧ)"
-msgstr "Комиссия (Ѧ)\n"
+msgid "Fee (₱)"
+msgstr "Комиссия (₱)\n"
 
 msgid "Folder Name"
 msgstr "Имя Папки"
@@ -320,8 +320,8 @@ msgstr "Нет отличий от оригинального списка де�
 msgid "No publicKey"
 msgstr "Отсутствует Публичный ключ"
 
-msgid "Not enough ARK on your account"
-msgstr "Не хватает ARK на вашем счету"
+msgid "Not enough RIPA on your account"
+msgstr "Не хватает RIPA на вашем счету"
 
 msgid "Open Delegate Monitor"
 msgstr "Открыть монитор делегатов"
@@ -368,11 +368,11 @@ msgstr "Производительность"
 msgid "Quit"
 msgstr "Выход"
 
-msgid "Quit Ark Client?"
-msgstr "Завершить клиент Ark?"
+msgid "Quit Ripa Client?"
+msgstr "Завершить клиент Ripa?"
 
-msgid "Receive Ark"
-msgstr "Получить Ark"
+msgid "Receive Ripa"
+msgstr "Получить Ripa"
 
 msgid "Remove"
 msgstr "Удалить"
@@ -395,11 +395,11 @@ msgstr "Дополнительный пароль"
 msgid "Send"
 msgstr "Отправить"
 
-msgid "Send Ark"
-msgstr "Отправить Ark"
+msgid "Send Ripa"
+msgstr "Отправить Ripa"
 
-msgid "Send Ark from"
-msgstr "Отправить Ark из"
+msgid "Send Ripa from"
+msgstr "Отправить Ripa из"
 
 msgid "Set"
 msgstr "Установить"
@@ -464,9 +464,9 @@ msgstr "секретная фраза"
 msgid "sent with success!"
 msgstr "отправлено успешно!"
 
-msgid "you need at least 1 ARK to vote"
-msgstr "Для голосования необходимо иметь хотя бы 1ARK"
+msgid "you need at least 1 RIPA to vote"
+msgstr "Для голосования необходимо иметь хотя бы 1RIPA"
 
-msgid "you need at least 25 ARK to register delegate"
-msgstr "вам нужно как минимум 25 ARK для регистрации делегата"
+msgid "you need at least 25 RIPA to register delegate"
+msgstr "вам нужно как минимум 25 RIPA для регистрации делегата"
 
