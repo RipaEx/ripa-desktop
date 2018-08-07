@@ -23,7 +23,7 @@
        * Fetches and parses the RSS of ARK.io
        */
       fetchBlogEntries () {
-        const rssUrl = 'https://medium.com/feed/ripaex'
+        const rssUrl = 'http://blog.ripaex.io/feed/'
         return this.fetchAndParse(rssUrl).then(parsed => parsed.feed.entries)
       }
     }
