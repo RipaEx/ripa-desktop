@@ -221,8 +221,8 @@ msgstr "没有公钥"
 msgid "No search term"
 msgstr "没有搜索字词"
 
-msgid "Not enough RIPA on your account"
-msgstr "您的账户没有足够的RIPA"
+msgid "Not enough XPX on your account"
+msgstr "您的账户没有足够的XPX"
 
 msgid "OffChain"
 msgstr "离链"
@@ -285,13 +285,13 @@ msgid "Quit"
 msgstr "退出"
 
 msgid "Quit Ripa Client?"
-msgstr "退出RIPA客户端？"
+msgstr "退出Ripa客户端？"
 
 msgid "Rank"
 msgstr "排名"
 
 msgid "Receive Ripa"
-msgstr "接收RIPA"
+msgstr "Ripa"
 
 msgid "Register Delegate"
 msgstr "注册受托人"
@@ -407,12 +407,12 @@ msgstr "生产块"
 msgid "sent with success!"
 msgstr "发送成功！"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "您需要至少1 RIPA投票"
+msgid "you need at least 1 XPX to vote"
+msgstr "您需要至少1 XPX投票"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "你需要至少25个RIPA来注册受托人"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "你需要至少25个XPX来注册受托人"
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "你需要至少5RIPA创建二级密码"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "你需要至少5XPX创建二级密码"
 

@@ -458,7 +458,7 @@ msgstr "فاقد کلید عمومی"
 msgid "No search term"
 msgstr "بدون عبارت جستحو"
 
-msgid "Not enough RIPA on your account"
+msgid "Not enough XPX on your account"
 msgstr "آرک کافی در حساب شما وجود ندارد"
 
 msgid "OffChain"
@@ -881,15 +881,15 @@ msgstr "بهره وری"
 msgid "sent with success!"
 msgstr "با موفقیت ارسال شد!"
 
-msgid "you need at least 1 RIPA to vote"
+msgid "you need at least 1 XPX to vote"
 msgstr "شما برای رای داد حداقل به 1 آرک احتیاج دارید"
 
-msgid "you need at least 25 RIPA to register delegate"
+msgid "you need at least 25 XPX to register delegate"
 msgstr "شما برای ثبت نام نمایندگی به حداقل 25 آرک احتیاج دارید"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "رای دادن کاملا اختیاری است، ولی مکانیزم اصلی ای است که شبکه آرک را ایمن نگه میدارد. \n 51 نماینده با اکثریت آرا از شبکه مسئول تایید و فورژ کردن تراکنش ها درون بلاک ها هستند.\n این صفحه میتواند رای شما را به نماینده ای که از آن حمایت میکنید ثبت کند"
 
-msgid "you need at least 5 RIPA to create a second passphrase"
+msgid "you need at least 5 XPX to create a second passphrase"
 msgstr "شما برای ایجاد رمز عبور دوم به حداقل 5 آرک احتیاج دارید"
 

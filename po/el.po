@@ -266,8 +266,8 @@ msgstr "Δεν υπάρχει publicKey"
 msgid "No search term"
 msgstr "Δεν υπάρχει ο όρος αναζήτησης"
 
-msgid "Not enough RIPA on your account"
-msgstr "Δεν υπάρχουν αρκετά RIPA στον λογαριασμό"
+msgid "Not enough XPX on your account"
+msgstr "Δεν υπάρχουν αρκετά XPX στον λογαριασμό"
 
 msgid "OffChain"
 msgstr "Εκτός αλυσίδας"
@@ -348,7 +348,7 @@ msgid "Rank"
 msgstr "Κατάταξη"
 
 msgid "Receive Ripa"
-msgstr "Παραλαβή RIPA"
+msgstr "Παραλαβή Ripa"
 
 msgid "Register Delegate"
 msgstr "Κατοχύρωση Delegate"
@@ -464,12 +464,12 @@ msgstr "παραχθέντα block"
 msgid "sent with success!"
 msgstr "Στάλθηκε με επιτυχία"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "Χρειάζεστε τουλάχιστον 1 RIPA για να ψηφίσετε"
+msgid "you need at least 1 XPX to vote"
+msgstr "Χρειάζεστε τουλάχιστον 1 XPX για να ψηφίσετε"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "Χρειάζεστε τουλάχιστον 25 RIPA για να κατοχυρώσετε έναν delegate"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "Χρειάζεστε τουλάχιστον 25 XPX για να κατοχυρώσετε έναν delegate"
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "χρειάζεστε τουλάχιστον 5 RIPA για να δημιουργήσετε μια δεύτερη φράση πρόσβασης"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "χρειάζεστε τουλάχιστον 5 XPX για να δημιουργήσετε μια δεύτερη φράση πρόσβασης"
 

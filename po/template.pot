@@ -580,7 +580,7 @@ msgstr ""
 #: client/app/src/accounts/account.service.js:499
 #: client/app/src/accounts/account.service.js:534
 #: client/app/src/accounts/account.service.js:570
-msgid "Not enough RIPA on your account"
+msgid "Not enough XPX on your account"
 msgstr ""
 
 #: client/app/src/components/account/offchain-tab.html:3
@@ -1133,13 +1133,13 @@ msgid "sent with success!"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:570
-msgid "you need at least 1 RIPA to vote"
+msgid "you need at least 1 XPX to vote"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:534
-msgid "you need at least 25 RIPA to register delegate"
+msgid "you need at least 25 XPX to register delegate"
 msgstr ""
 
 #: client/app/src/accounts/account.service.js:499
-msgid "you need at least 5 RIPA to create a second passphrase"
+msgid "you need at least 5 XPX to create a second passphrase"
 msgstr ""

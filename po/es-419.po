@@ -452,8 +452,8 @@ msgstr "No hay clave pública"
 msgid "No search term"
 msgstr "No hay término de búsqueda"
 
-msgid "Not enough RIPA on your account"
-msgstr "RIPA insuficientes en su cuenta"
+msgid "Not enough XPX on your account"
+msgstr "XPX insuficientes en su cuenta"
 
 msgid "OffChain"
 msgstr "OffChain"
@@ -872,15 +872,15 @@ msgstr "productividad"
 msgid "sent with success!"
 msgstr "¡Enviado exitosamente!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "necesitas al menos 1 RIPA para votar"
+msgid "you need at least 1 XPX to vote"
+msgstr "necesitas al menos 1 XPX para votar"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "Necesita al menos 25 RIPA para registrar delegado"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "Necesita al menos 25 XPX para registrar delegado"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Votar es opcional pero es un importante mecanismo que mantiene la red RIPA segura.\nLos 51 delegados con más votos de la red son responsables de verificar y forjar transacciones en los nuevos bloques.\nEsta página puede utilizarse para votar por un delegado que usted apoye."
+msgstr "Votar es opcional pero es un importante mecanismo que mantiene la red XPX segura.\nLos 51 delegados con más votos de la red son responsables de verificar y forjar transacciones en los nuevos bloques.\nEsta página puede utilizarse para votar por un delegado que usted apoye."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "Necesita al menos 5 RIPA para crear una segunda contraseña"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "Necesita al menos 5 XPX para crear una segunda contraseña"
 

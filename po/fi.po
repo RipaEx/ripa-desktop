@@ -458,8 +458,8 @@ msgstr "Ei julkistaAvainta"
 msgid "No search term"
 msgstr "Ei hakusanaa"
 
-msgid "Not enough RIPA on your account"
-msgstr "Tililläsi ei ole tarpeeksi RIPA'ia"
+msgid "Not enough XPX on your account"
+msgstr "Tililläsi ei ole tarpeeksi XPX'ia"
 
 msgid "OffChain"
 msgstr "OffChain"
@@ -558,7 +558,7 @@ msgid "Please restart your client after the delegate registration has been put i
 msgstr "Muutosten voimaanastumista varten ole hyvä ja uudelleenkäynnistä ohjelmisto kun edustajaksi rekisteröintisi on kirjattu lohkoon."
 
 msgid "Please first BACKUP SECURELY THE PASSPHRASE, this client does NOT store it and thus cannot recover your passphrase"
-msgstr "Ole hyvä ja TEE TUNNUSLAUSEESTASI USEAMPI VARMUUSKOPIO ja SÄILYTÄ NIITÄ ERILLÄÄN TURVALLISISSA PAIKOISSA. Tämä ohjelma EI TALLENNA tunnuslausettasi. Hukkunutta tunnuslausetta EI VOIDA PALAUTTAA RIPA'in toimesta."
+msgstr "Ole hyvä ja TEE TUNNUSLAUSEESTASI USEAMPI VARMUUSKOPIO ja SÄILYTÄ NIITÄ ERILLÄÄN TURVALLISISSA PAIKOISSA. Tämä ohjelma EI TALLENNA tunnuslausettasi. Hukkunutta tunnuslausetta EI VOIDA PALAUTTAA XPX'in toimesta."
 
 msgid "Please type word 3, 6 and 9 from your passphrase to validate the account creation."
 msgstr "Ole hyvä ja kirjoita tunnuslauseesi sanat 3, 6 ja 9 vahvistaaksesi tilisi luonnin."
@@ -881,15 +881,15 @@ msgstr "tuottavuus"
 msgid "sent with success!"
 msgstr "lähetetty onnistuneesti!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "tarvitset vähintään 1.0 RIPA'ia äänestääksesi"
+msgid "you need at least 1 XPX to vote"
+msgstr "tarvitset vähintään 1.0 XPX'ia äänestääksesi"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "tarvitset vähintään 25 RIPA'ia rekisteröityäksesi edustajaksi"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "tarvitset vähintään 25 XPX'ia rekisteröityäksesi edustajaksi"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "Äänestäminen on valinnainen mutta tärkeä mekanismi, joka pitää Ripa-verkon turvattuna.\nVerkoston 51 eniten ääniä saanutta edustajaa (delegaattia) ovat vastuussa tilitapahtumien tarkastamisesta sekä tapahtumien tallentamisesta uusiin lohkoihin.\nTällä sivulla voit antaa äänesi tukemalle edustajallesi."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "tarvitset vähintään 5 RIPA'ia luodaksesi toisen tunnuslauseen"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "tarvitset vähintään 5 XPX'ia luodaksesi toisen tunnuslauseen"
 

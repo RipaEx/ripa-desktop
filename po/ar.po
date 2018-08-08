@@ -398,8 +398,8 @@ msgstr "لا يوجد مفتاح عام"
 msgid "No search term"
 msgstr "مصطلح البحث غير موجود"
 
-msgid "Not enough RIPA on your account"
-msgstr "RIPA غير كافية على حسابك"
+msgid "Not enough XPX on your account"
+msgstr "XPX غير كافية على حسابك"
 
 msgid "OffChain"
 msgstr "خارج السلسلة"
@@ -764,15 +764,15 @@ msgstr "الإنتاج"
 msgid "sent with success!"
 msgstr "أرسلت بنجاح!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "تحتاج على الأقل 1 RIPA  لكي تصوت"
+msgid "you need at least 1 XPX to vote"
+msgstr "تحتاج على الأقل 1 XPX  لكي تصوت"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "تحتاج 25 أرك RIPA على الأقل لتسجيل المندوب"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "تحتاج 25 أرك XPX على الأقل لتسجيل المندوب"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "التصويت آلية اختيارية، لكنها مهمة تحافظ على شبكة آمنة.\nالمندوبون ال 51 الذين حصلوا على أكبر عدد من الأصوات من الشبكة هم المسؤولون عن التحقق من المعاملات وإبرامها في كتل جديدة.\nيمكن استخدام هذه الصفحة للإدلاء بصوتك للمندوب الذي تدعمه."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
+msgid "you need at least 5 XPX to create a second passphrase"
 msgstr "تحتاج إلى 5 أرك على الأقل لإنشاء عبارة مرور ثانية"
 

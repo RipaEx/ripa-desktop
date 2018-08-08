@@ -320,8 +320,8 @@ msgstr "Нет отличий от оригинального списка де�
 msgid "No publicKey"
 msgstr "Отсутствует Публичный ключ"
 
-msgid "Not enough RIPA on your account"
-msgstr "Не хватает RIPA на вашем счету"
+msgid "Not enough XPX on your account"
+msgstr "Не хватает XPX на вашем счету"
 
 msgid "Open Delegate Monitor"
 msgstr "Открыть монитор делегатов"
@@ -464,9 +464,9 @@ msgstr "секретная фраза"
 msgid "sent with success!"
 msgstr "отправлено успешно!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "Для голосования необходимо иметь хотя бы 1RIPA"
+msgid "you need at least 1 XPX to vote"
+msgstr "Для голосования необходимо иметь хотя бы 1XPX"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "вам нужно как минимум 25 RIPA для регистрации делегата"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "вам нужно как минимум 25 XPX для регистрации делегата"
 

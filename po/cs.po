@@ -458,8 +458,8 @@ msgstr "Chybí veřejný klíč"
 msgid "No search term"
 msgstr "Chybí vyhledávací podmínka"
 
-msgid "Not enough RIPA on your account"
-msgstr "Nedostatek RIPA měny na tvém účtu"
+msgid "Not enough XPX on your account"
+msgstr "Nedostatek XPX měny na tvém účtu"
 
 msgid "OffChain"
 msgstr "OffChain"
@@ -597,7 +597,7 @@ msgid "Rank"
 msgstr "Pořadí"
 
 msgid "Receive Ripa"
-msgstr "Obdržené RIPA"
+msgstr "Obdržené Ripa"
 
 msgid "Refresh Account"
 msgstr "Obnovit stav účtu"
@@ -675,13 +675,13 @@ msgid "Send All"
 msgstr "Odeslat všem"
 
 msgid "Send Ripa"
-msgstr "Odeslat RIPA měnu"
+msgstr "Odeslat Ripa měnu"
 
 msgid "Serbian"
 msgstr "Srbština"
 
 msgid "Send Ripa from"
-msgstr "Poslat RIPA od"
+msgstr "Poslat Ripa od"
 
 msgid "Set"
 msgstr "Nastavit"
@@ -834,7 +834,7 @@ msgid "Votes"
 msgstr "Hlasy"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Hlasování je dobrovolné, ale jde o důležitý mechanizmus jak udržet RIPA síť bezpečnou. V celé síti je 51 delegovaných s většinou hlasů, kteří jsou zodpovědni za ověřování a zpracování transakcí do nových bloků. Tady můžeš hlasovat pro\ndelegovaného kterému důvěřuješ a chceš ho podpořit."
+msgstr "Hlasování je dobrovolné, ale jde o důležitý mechanizmus jak udržet XPX síť bezpečnou. V celé síti je 51 delegovaných s většinou hlasů, kteří jsou zodpovědni za ověřování a zpracování transakcí do nových bloků. Tady můžeš hlasovat pro\ndelegovaného kterému důvěřuješ a chceš ho podpořit."
 
 msgid "Word"
 msgstr "Slovo"
@@ -881,15 +881,15 @@ msgstr "produktivita"
 msgid "sent with success!"
 msgstr "úspěšně posláno!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "pro hlasování potřebuješ alespoň 1 RIPA"
+msgid "you need at least 1 XPX to vote"
+msgstr "pro hlasování potřebuješ alespoň 1 XPX"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "pro registraci delegovaného potřebuješ alespoň 25 RIPA"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "pro registraci delegovaného potřebuješ alespoň 25 XPX"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Hlasování je dobrovolné, ale jde o důležitý mechanizmus jak udržet RIPA síť bezpečnou.\nV celé síti je 51 delegovaných s většinou hlasů, kteří jsou zodpovědni za ověřování a zpracování transakcí do nových bloků.\nTady můžeš hlasovat pro delegovaného kterému důvěřuješ a chceš ho podpořit."
+msgstr "Hlasování je dobrovolné, ale jde o důležitý mechanizmus jak udržet XPX síť bezpečnou.\nV celé síti je 51 delegovaných s většinou hlasů, kteří jsou zodpovědni za ověřování a zpracování transakcí do nových bloků.\nTady můžeš hlasovat pro delegovaného kterému důvěřuješ a chceš ho podpořit."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "potřebuješ alespoň 5 RIPA pro vytvoření druhé přihlašovací fráze"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "potřebuješ alespoň 5 XPX pro vytvoření druhé přihlašovací fráze"
 

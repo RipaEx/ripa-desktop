@@ -105,7 +105,7 @@ msgid "Are you sure?"
 msgstr "Јесте ли сигурни?"
 
 msgid "Ripa Client"
-msgstr "RIPA клијент"
+msgstr "Ripa клијент"
 
 msgid "Background"
 msgstr "Позадина"
@@ -398,8 +398,8 @@ msgstr "Недостаје јавни кључ (publicKey)"
 msgid "No search term"
 msgstr "Нема претражувачког термина"
 
-msgid "Not enough RIPA on your account"
-msgstr "Недоволјна количина RIPA на рачуну"
+msgid "Not enough XPX on your account"
+msgstr "Недоволјна количина XPX на рачуну"
 
 msgid "OffChain"
 msgstr "Локално"
@@ -513,13 +513,13 @@ msgid "Quit"
 msgstr "Излаз"
 
 msgid "Quit Ripa Client?"
-msgstr "Изађи ит RIPA клијента?"
+msgstr "Изађи ит Ripa клијента?"
 
 msgid "Rank"
 msgstr "Место"
 
 msgid "Receive Ripa"
-msgstr "Прими RIPA"
+msgstr "Прими Ripa"
 
 msgid "Register Delegate"
 msgstr "Регистрација делегата"
@@ -582,10 +582,10 @@ msgid "Send All"
 msgstr "Шаљи све"
 
 msgid "Send Ripa"
-msgstr "Шаљи RIPA"
+msgstr "Шаљи Ripa"
 
 msgid "Send Ripa from"
-msgstr "Шаљи RIPA од"
+msgstr "Шаљи Ripa од"
 
 msgid "Set"
 msgstr "Подеси"
@@ -717,7 +717,7 @@ msgid "Votes"
 msgstr "Гласови"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure. The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks. This page can be used to cast your vote for\n                a delegate that you support."
-msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност RIPA мреже. 51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
+msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност XPX мреже. 51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
 
 msgid "Word"
 msgstr "Реч"
@@ -764,15 +764,15 @@ msgstr "продуктивност"
 msgid "sent with success!"
 msgstr "успешно послано!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "потребан је најмање 1 RIPA за гласанје"
+msgid "you need at least 1 XPX to vote"
+msgstr "потребан је најмање 1 XPX за гласанје"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "потребно је најмање 25 RIPA за регистрацију делегата"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "потребно је најмање 25 XPX за регистрацију делегата"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
-msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност RIPA мреже.\n51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
+msgstr "Гласање је опцијски али уједно и значајан механизам који одржава безбедност XPX мреже.\n51 делегата са највише гласова од учесника мреже је одговорно за оверавање и ковање трансакција у нове блокове.\nОвде можете дати свој глас делегату којег подржавате."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "Потребно вам је станје најмање 5 RIPA за стварање додатне лозинке"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "Потребно вам је станје најмање 5 XPX за стварање додатне лозинке"
 

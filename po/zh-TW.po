@@ -48,7 +48,7 @@ msgid "Are you sure?"
 msgstr "你確定？"
 
 msgid "Ripa Client"
-msgstr "RIPA客戶端"
+msgstr "Ripa客戶端"
 
 msgid "Balance"
 msgstr "结余"
@@ -215,8 +215,8 @@ msgstr "沒有公鑰"
 msgid "No search term"
 msgstr "沒有搜索字詞"
 
-msgid "Not enough RIPA on your account"
-msgstr "您的賬戶沒有足夠的RIPA"
+msgid "Not enough XPX on your account"
+msgstr "您的賬戶沒有足夠的XPX"
 
 msgid "OffChain"
 msgstr "離鏈"
@@ -276,13 +276,13 @@ msgid "Quit"
 msgstr "退出"
 
 msgid "Quit Ripa Client?"
-msgstr "退出RIPA客戶端？"
+msgstr "退出Ripa客戶端？"
 
 msgid "Rank"
 msgstr "排名"
 
 msgid "Receive Ripa"
-msgstr "接收RIPA"
+msgstr "接收Ripa"
 
 msgid "Register Delegate"
 msgstr "註冊受託人"
@@ -395,9 +395,9 @@ msgstr "生產塊"
 msgid "sent with success!"
 msgstr "發送成功！"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "您需要至少1 RIPA投票"
+msgid "you need at least 1 XPX to vote"
+msgstr "您需要至少1 XPX投票"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "你需要至少25個RIPA來註冊受託人"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "你需要至少25個XPX來註冊受託人"
 

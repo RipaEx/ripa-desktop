@@ -458,8 +458,8 @@ msgstr "Nema javnog ključa"
 msgid "No search term"
 msgstr "Nema traženog termina"
 
-msgid "Not enough RIPA on your account"
-msgstr "Nemate dovoljno RIPA-ova na vašem računu"
+msgid "Not enough XPX on your account"
+msgstr "Nemate dovoljno XPX-ova na vašem računu"
 
 msgid "OffChain"
 msgstr "Izvan lanca"
@@ -591,7 +591,7 @@ msgid "Quit"
 msgstr "Izlaz"
 
 msgid "Quit Ripa Client?"
-msgstr "Izađi iz RIPA klijenta?"
+msgstr "Izađi iz Ripa klijenta?"
 
 msgid "Rank"
 msgstr "Mjesto"
@@ -878,15 +878,15 @@ msgstr "produktivnost"
 msgid "sent with success!"
 msgstr "uspješno poslano!"
 
-msgid "you need at least 1 RIPA to vote"
-msgstr "moraš imati barem 1 RIPA za glasanje"
+msgid "you need at least 1 XPX to vote"
+msgstr "moraš imati barem 1 XPX za glasanje"
 
-msgid "you need at least 25 RIPA to register delegate"
-msgstr "moraš imati barem 25 RIPA-ova za registriranje delegata"
+msgid "you need at least 25 XPX to register delegate"
+msgstr "moraš imati barem 25 XPX-ova za registriranje delegata"
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "Glasanje je opcionalno, ali je bitan mehanizam koji osigurava Ripa mrežu sigurnom. \n51 delegat sa najviše glasova s mreže su odgovorni za potvrđivanje i kovanje transkacija u nove blokove. \nOva stranica može biti korištena u svrhu glasanja za delegata kojega podržavaš."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "trebaš minimalno 5 RIPA-ova za stvaranje dodatne lozinke"
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "trebaš minimalno 5 XPX-ova za stvaranje dodatne lozinke"
 

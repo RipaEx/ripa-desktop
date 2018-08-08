@@ -449,7 +449,7 @@ msgstr "공용키가 없습니다."
 msgid "No search term"
 msgstr "검색어가 없습니다."
 
-msgid "Not enough RIPA on your account"
+msgid "Not enough XPX on your account"
 msgstr "당신의 계정에 충분한 아크가 없습니다."
 
 msgid "OffChain"
@@ -869,15 +869,15 @@ msgstr "생산성"
 msgid "sent with success!"
 msgstr "성공적으로 보내졌습니다."
 
-msgid "you need at least 1 RIPA to vote"
+msgid "you need at least 1 XPX to vote"
 msgstr "투표하기 위해 적어도 1아크가 필요합니다."
 
-msgid "you need at least 25 RIPA to register delegate"
+msgid "you need at least 25 XPX to register delegate"
 msgstr "대표자로 등록하기 위해 적어도 25아크가 필요합니다. "
 
 msgid "Voting is an optional, but important mechanism that keeps the Ripa network secure.\n                The 51 delegates with the most votes from the network are responsible for verifying and forging transactions into new blocks.\n                This page can be used to cast your vote for a delegate that you support."
 msgstr "투표는 필수사항이 아닙니다. 단, 투표는 아크 네트워크 안정화에 중요한 역할을 합니다.\n표를 가장 많이 획득한 51명이 대표로 선정되어 새로운 블럭에 대한 거래를 확인하고 구축해나가는 책임이 주어집니다.\n현재 페이지에서 여러분들이 지지하는 대표후보에게 투표하실 수 있습니다."
 
-msgid "you need at least 5 RIPA to create a second passphrase"
-msgstr "2차 보안문구를 생성하기 위해서는 최소 5 RIPA 가 필요합니다."
+msgid "you need at least 5 XPX to create a second passphrase"
+msgstr "2차 보안문구를 생성하기 위해서는 최소 5 XPX 가 필요합니다."
 
