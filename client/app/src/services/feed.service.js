@@ -23,7 +23,7 @@
        * Fetches and parses the RSS of ARK.io
        */
       fetchBlogEntries () {
-        const rssUrl = 'http://blog.ripaex.io/feed/'
+        const rssUrl = 'http://createfeed.fivefilters.org/extract.php?url=https://steemit.com/@ripaex&in_id_or_class=articles__h2+entry-title&url_contains='
         return this.fetchAndParse(rssUrl).then(parsed => parsed.feed.entries)
       }
     }
