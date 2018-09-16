@@ -31,8 +31,8 @@
           <td md-cell><a ng-click="$ctrl.ul.openExplorer('/tx/'+it.id)" md-colors="::{color: '{{ $ctrl.ul.network.themeDark ? 'background-200' : 'background-800' }}'}">{{it.id | txId}}</a>
             <md-tooltip>{{it.id}}</md-tooltip>
           </td>
-          <td md-cell ng-if="it.confirmations <= 50">{{it.confirmations}}</td>
-          <td md-cell ng-if="it.confirmations > 50">
+          <td md-cell ng-if="it.confirmations <= 100">{{it.confirmations}}</td>
+          <td md-cell ng-if="it.confirmations > 100">
             <translate>Well Confirmed</translate>
             <md-tooltip>{{it.confirmations | number: 0}} <translate>Confirmations</translate></md-tooltip>
           </td>
