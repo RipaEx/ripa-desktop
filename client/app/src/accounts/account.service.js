@@ -237,7 +237,7 @@
         return deferred.promise
       }
 
-      networkService.getFromPeer('/api/blocks/getfees')
+      networkService.getFromPeer('/api/blocks/getFees')
         .then((resp) => {
           if (resp.success) {
             self.cachedFees = resp.fees
@@ -666,7 +666,7 @@
       return virtual
     }
 
-    const allowedDelegateNameChars = /^[a-z0-9!@$&_.]+$/g
+    const allowedDelegateNameChars = /^[a-z0-9!@$&_.]+$/
 
     function sanitizeDelegateName (delegateName) {
       if (!delegateName) {

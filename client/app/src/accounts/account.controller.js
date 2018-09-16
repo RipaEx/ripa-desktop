@@ -16,6 +16,7 @@
       '$timeout',
       '$interval',
       '$log',
+      '$http',
       '$mdDialog',
       'dialogService',
       '$scope',
@@ -28,6 +29,7 @@
       '$rootScope',
       'transactionBuilderService',
       'utilityService',
+      'marketService',
       AccountController
     ])
 
@@ -51,6 +53,7 @@
     $timeout,
     $interval,
     $log,
+    $http,
     $mdDialog,
     dialogService,
     $scope,
@@ -62,7 +65,8 @@
     $window,
     $rootScope,
     transactionBuilderService,
-    utilityService
+    utilityService,
+    marketService
   ) {
     const _path = require('path')
     const electron = require('electron')
@@ -117,6 +121,27 @@
     self.languages = []
 
     self.setLanguage()
+
+    self.getWordlistLanguage = function () {
+      return storageService.get('wordlistLanguage') || 'english'
+    }
+
+    self.setWordlistLanguage = function () {
+      storageService.set('wordlistLanguage', self.wordlistLanguage)
+    }
+
+    self.wordlistLanguages = {
+      'english': 'English',
+      'french': 'French',
+      'spanish': 'Spanish',
+      'italian': 'Italian',
+      'japanese': 'Japanese',
+      'korean': 'Korean',
+      'chinese_simplified': 'Chinese simplified',
+      'chinese_traditional': 'Chinese traditional'
+    }
+
+    self.wordlistLanguage = self.getWordlistLanguage()
 
     pluginLoader.triggerEvent('onStart')
 
@@ -191,12 +216,24 @@
       })
     }
 
+    const getLatestClientVersion = () => {
+      return new Promise((resolve, reject) => {
+        const url = 'https://api.github.com/repos/RipaEx/ripa-desktop/releases/latest'
+        $http.get(url, { timeout: 5000 })
+          .then(
+            res => resolve(res.data.tag_name),
+            _error => {}// reject(gettextCatalog.getString("Cannot get latest version"))
+          )
+      })
+    }
+
+    getLatestClientVersion().then(r => (self.latestClientVersion = r))
+
     self.clientVersion = require(_path.resolve(__dirname, '../../package.json')).version
     self.latestClientVersion = self.clientVersion
     self.openExplorer = openExplorer
     self.timestamp = timestamp
     self.showValidateTransaction = showValidateTransaction
-    networkService.getLatestClientVersion().then((r) => { self.latestClientVersion = r })
     self.isNetworkConnected = false
     self.selected = null
     self.accounts = []
@@ -218,6 +255,7 @@
     self.togglePlayFundsReceivedSound = togglePlayFundsReceivedSound
     self.manageBackgrounds = manageBackgrounds
     self.showExchangeRate = showExchangeRate
+    self.showExchangeTab = showExchangeTab
     self.manageNetworks = manageNetworks
     self.createDelegate = createDelegate
     self.currency = storageService.get('currency') || self.currencies[0]
@@ -241,6 +279,7 @@
     self.toggleCurrency = self.bitcoinCurrency
 
     self.connectedPeer = { isConnected: false }
+    self.market = marketService.getPrice(self.currency.name)
 
     if (!self.network.theme) self.network.theme = 'default'
     if (!self.network.themeDark) self.network.themeDark = false
@@ -284,7 +323,6 @@
         return
       }
       if (!self.ledgerAccounts && self.ledger && self.ledger.connected) {
-        console.log('ledgerService.getBip44Accounts')
         nocall = true
         ledgerService.getBip44Accounts(self.network.slip44).then(
           (accounts) => {
@@ -309,6 +347,23 @@
         self.ledger = { connected: false }
       }
     }, 2 * 1000)
+
+    function updateTicker () {
+      const update = () => {
+        const currencyName = self.btcValueActive ? 'btc' : self.currency.name
+        self.market = marketService.getPrice(currencyName)
+      }
+
+      const refresh = () => {
+        marketService.updateTicker().then(update)
+      }
+
+      refresh()
+      $scope.$watch(() => self.currency, update)
+      $interval(refresh, 6 * 10000)
+    }
+
+    updateTicker()
 
     // TODO Used in dashboard navbar and accountBox
     self.selectLedgerAccount = function (account) {
@@ -700,7 +755,7 @@
       storageService.set('refreshAccountsAutomatically', self.refreshAccountsAutomatically, true)
     }
 
-    function togglePlayFundsReceivedSound (status) {
+    function togglePlayFundsReceivedSound () {
       storageService.set('playFundsReceivedSound', self.playFundsReceivedSound, true)
     }
 
@@ -1228,6 +1283,10 @@
       return self.network.cmcTicker || self.network.token === 'ARK'
     }
 
+    function showExchangeTab () {
+      return showExchangeRate()
+    }
+
     function manageNetworks () {
       let networks = networkService.getNetworks()
 
@@ -1385,7 +1444,7 @@
     // TODO Used in dashboard navbar and accountBox
     function createAccount () {
       const bip39 = require('bip39')
-      const data = { passphrase: bip39.generateMnemonic() }
+      const data = { passphrase: bip39.generateMnemonic(null, null, bip39.wordlists[self.getWordlistLanguage()]) }
 
       function next () {
         if (!$scope.createAccountDialog.data.showRepassphrase) {
@@ -1622,11 +1681,8 @@
             }
           },
          (error) => {
-           formatAndToastError({
-             message: gettextCatalog.getString('Failed to execute your \'{{ transactionLabel }}\' transaction!',
-                                               {transactionLabel: transactionLabel}),
-             error: error
-           })
+           const message = gettextCatalog.getString('Failed to execute your \'{{ transactionLabel }}\' transaction!', { transactionLabel })
+           formatAndToastError({ message, error })
          })
       }
 
@@ -1654,7 +1710,7 @@
 
     function isBIP39 (mnemonic) {
       const bip39 = require('bip39')
-      let valid = bip39.validateMnemonic(mnemonic)
+      let valid = bip39.validateMnemonic(mnemonic) || bip39.validateMnemonic(mnemonic, bip39.wordlists[self.getWordlistLanguage()])
       return valid
     }
   }
